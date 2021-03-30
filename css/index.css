@@ -51,7 +51,7 @@ p {
 
 /* Jumbotron  */
 .jumbotron {
-  background-image: url(/Users/malvikanaithani/Downloads/Solved/images/Screen Shot 2021-03-27 at 11.46.32 am.png);
+  background-image: url("../images/Screen\ Shot\ 2021-03-27\ at\ 11.46.32\ am.png");
   background-size: cover;
   background-repeat: no-repeat;
   height: calc(100vh - 25px);
