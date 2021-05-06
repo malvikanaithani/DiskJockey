@@ -51,7 +51,7 @@ p {
 
 /* Jumbotron  */
 .jumbotron {
-  background-image: url("../images/Screen\ Shot\ 2021-03-27\ at\ 11.46.32\ am.png");
+  background-image: url("../images/mountain\ painting.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   height: calc(100vh - 25px);
@@ -71,21 +71,32 @@ p {
 
 /* Cards */
 .content {
-  padding: 50px;
+  padding: 30px;
 }
 .sectionHeading {
   text-align: center;
 }
 .showsNear  {
-  padding: 0px 30px 30px 30px;
+  padding: 30px 30px 30px 30px;
+  display:flex;
 }
 .cardContainer {
   text-align: center;
 }
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
 
 /* Content */
 .sideAccent {
-  background: #007bff;
+  background: #ffae00;
   width: 15px;
 }
 .imageContainer img {
@@ -101,14 +112,14 @@ p {
 
 /* Footer */
 .emailContain {
-  background: url(../images/emailBG.jpg);
-  background-size: cover;
+  background: url(../images/Group\ 1.jpg);
+  background-size:contain;
   display: flex;
   align-items: center;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 500px;
+  height: 700px;
 }
 
 /* Footer form */
